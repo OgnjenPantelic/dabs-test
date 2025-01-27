@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "config": {
+    "bundle": {
+      "git": {
+        "branch": "main",
+        "commit": "5102bc2a4e43908b845d220fdc64a8216e71a5d9",
+        "bundle_root_path": "dab2/headphones-margin"
+      }
+    },
+    "workspace": {
+      "file_path": "/Workspace/Users/ognjen.pantelic@databricks.com/.bundle/headphones-margin/dev/files"
+    },
+    "resources": {
+      "jobs": {
+        "headphones-margin_sql_job": {
+          "id": "922927794102040",
+          "relative_path": "resources/headphones-margin_sql.job.yml"
+        }
+      }
+    }
+  }
+}
