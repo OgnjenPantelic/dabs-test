@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "dev" ]
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
@@ -18,7 +18,7 @@ jobs:
         uses: databricks/setup-cli@main
 
       - name: Deploy Databricks Bundle to Production
-        run: databricks bundle deploy -t production
+        run: databricks bundle deploy -t prod
         env:
           DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
           DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
