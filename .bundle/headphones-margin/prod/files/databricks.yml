@@ -25,7 +25,7 @@ targets:
     default: true
     workspace:
       host: https://adb-3373162765080783.3.azuredatabricks.net
-      root_path: /Workspace/Users/ognjen.pantelic@databricks.com/dabs-test/.bundle/${bundle.name}/${bundle.target}
+      file_path: /Workspace/Users/ognjen.pantelic@databricks.com/dabs-test
     variables:
       warehouse_id: 946c1136a8896221
       catalog: main
