@@ -18,7 +18,7 @@ jobs:
         uses: databricks/setup-cli@main
 
       - name: Deploy Databricks Bundle to Production
-        run: databricks bundle deploy -t prod
+        run: databricks bundle deploy -t production
         env:
           DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
           DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
