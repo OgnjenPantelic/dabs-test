@@ -41,8 +41,8 @@ targets:
       warehouse_id: 946c1136a8896221
       catalog: main
       schema: dabs
-    permissions:
-      - user_name: ognjen.pantelic@databricks.com
-        level: CAN_MANAGE
+    # permissions:
+    #   - user_name: ognjen.pantelic@databricks.com
+    #     level: CAN_MANAGE
     run_as:
       user_name: ognjen.pantelic@databricks.com
