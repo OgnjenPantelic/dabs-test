@@ -24,7 +24,7 @@ jobs:
           DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
 
       - name: Run Databricks Bundle
-        run: databricks bundle run my-job --refresh-all
+        run: databricks bundle run headphones-margin --refresh-all
         env:
           DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
           DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
